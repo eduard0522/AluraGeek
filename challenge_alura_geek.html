@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./assets/css/challenge_alura_geek.css">
+</head>
+<body>
+  <i class="bi bi-list"></i>
+  <header class="header flex-between">
+    <div class="logo flex-center">
+      <img src="./assets/img/image 1.svg" alt="logo que incluye 3 corazones" class="header_img_corazones">
+      <h1 class="header_h1 font-md-press">AluraGeek</h1>
+    </div>
+    <nav>
+      <ul class="flex-between">
+        <li><a href="#" class="underline"> Inicio</a></li>
+        <li><a href="/tienda.html"  class="underline">Tienda</a></li>
+        <li><a href="/challenge_alura_geek.html" class="underline">Administrador</a></li>
+        <li><a href="/tienda.html" class="underline">Salir</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  <main>
+    <aside>
+      <article class="contenedor_formulario_productos" >
+        <h2 class="font-md-press"> Agregar <br> Producto </h2>
+        <form action="" class="formulario_productos flex-center">
+          <fieldset>
+            <label for="nombre_producto"> Nombre
+              <input type="text" id="nombre_producto" name="nombre_producto" placeholder=" Nombre..." required min="3">
+            </label>
+          </fieldset>
+        
+          <fieldset>
+            <label for="modelo_producto">Modelo
+              <input type="text" id= "modelo_producto" name="modelo_producto" placeholder="Modelo..." required minlength="3">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="tamanio_producto">Tamaño
+              <input type="text" id= "tamanio_producto" name="tamanio_producto" placeholder="Tamaño..." required minlength="3">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="precio_producto"> Precio
+              <input type="text" id="precio_producto" name="precio_producto" placeholder="Precio..." required minlength="3">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label for="imagen_producto"> Imagen
+              <input type="text" id="imagen_producto" name="imagen_producto" placeholder="Imagen..." required minlength="10">
+            </label>
+          </fieldset>
+          
+         
+          <div class="contenedor_botones_formulario">
+            <button type="submit" class="boton_agregar_producto">Agregar</button>
+            <button type="button" class="boton_limpiar_formulario">Limpiar</button>
+          </div>
+        </form>
+      </article>
+    </aside>
+    <section class="main_contenido">
+
+      <article class="productos">
+        <h2 class="productos_titulo font-md-press">  Administración de productos </h2>
+        <div class="contenedor_productos">
+
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="flex-center">
+    <div class="contenedor_imagenes_footer flex-center"> 
+      <img src="./assets/img/image 1.svg" alt="logo que incluye 3 corazones" class="header_img_corazones">
+      <h2 class="font-md-press"> AluraGeek </h2>
+    </div>
+    <p> Desarrollado por Eduard Vilamil </p>
+    <p>Curso ONE Alura - 2024</p>
+  </footer>
+
+  <script src="./assets/js/main.js" type="module"></script>
+</body>
+</html>

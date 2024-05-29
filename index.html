@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./assets/css/tienda.css">
+</head>
+<body>
+  <i class="bi bi-list"></i>
+  <header class="header flex-between">
+    <div class="logo flex-center">
+      <img src="./assets/img/image 1.svg" alt="logo que incluye 3 corazones" class="header_img_corazones">
+      <h1 class="header_h1 font-md-press">AluraGeek</h1>
+    </div>
+    <nav>
+      <ul class="flex-between">
+        <li><a href="#" class="underline"> Inicio</a></li>
+        <li><a href="/index.html"  class="underline">Tienda</a></li>
+        <li><a href="/challenge_alura_geek.html" class="underline">Administrador</a></li>
+        <li><a href="index.html" class="underline">Carrito</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  <main>
+    <aside>
+      <article class="buscador_productos">
+        <form action="" class="formulario_filtro_productos">
+          <input type="search" id="buscador" placeholder="Buscar productos">
+            <label for=""> Tamaño
+              <select name="tamaño" id="">
+                <option value="">Más grande a mas pequeño</option>
+                <option value="">Más pequeño a mas grande</option>
+              </select>
+            </label>
+
+            <label for=""> Precio
+              <select name="precio" id="">
+                <option value="">Mayor a Menor</option>
+                <option value=""> Menor a Mayor </option>
+              </select>
+            </label>
+      
+            <label for=""> Tranformación
+              <select name="" id="">
+                <option value="">Todas</option>
+                <option value="">Super Sayayin</option>
+                <option value=""> Super Sayayin Blue</option>
+                <option value=""> Super Sayayin Dios</option>
+                <option value=""> Super Sayayin Ultrainstinto</option>
+              </select>
+            </label>
+             
+            <label for=""> Personaje
+              <select name="" id="">
+                <option value="">Todos</option>
+                <option value="">Goku</option>
+                <option value=""> Vegueta</option>
+                <option value=""> Gohan </option>
+                <option value=""> Krillin </option>
+                <option value=""> MajinBoo </option>
+                <option value=""> Cell </option>
+                <option value=""> Gothen </option>
+                <option value=""> Mr Satan </option>
+              </select>
+            </label>
+            
+          <button type="submit" class="btn-buscar">Buscar</button>
+        </form>
+      </article>
+    </aside>
+    <section class="main_contenido">
+
+      <article class="productos">
+        <h2 class="productos_titulo font-md-press">  Nuestros productos </h2>
+        <div class="contenedor_productos">
+
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="flex-center">
+    <div class="contenedor_imagenes_footer flex-center"> 
+      <img src="./assets/img/image 1.svg" alt="logo que incluye 3 corazones" class="header_img_corazones">
+      <h2 class="font-md-press"> AluraGeek </h2>
+    </div>
+    <p> Desarrollado por Eduard Vilamil </p>
+    <p>Curso ONE Alura - 2024</p>
+  </footer>
+
+  <script src="./assets/js/tienda.js" type="module"></script>
+</body>
+</html>
